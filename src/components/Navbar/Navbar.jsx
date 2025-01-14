@@ -27,20 +27,34 @@ const NavbarMenu = [
     title: "Contact Us",
     path: "#",
   },
-  {
-    id: 1,
-    title: "About Us",
-    path: "/",
-  },
-
 ]
 
 const Navbar = () => {
   return (
-    <div>
-      Navbar
-    </div>
-  )
-}
+    <nav>
+    <div className="container py-10 flex justify-between items-center">
+      {/* logo */}
+      <div>
+        <h1 className='font-bold text-2xl'>The Learning Curve</h1>
+      </div>
+      {/* menu */}
+      <div className='hidden lg:block'>
+<ul className='flex items-center gap-3'>
+  {
+    NavbarMenu.map( (menu) => (
+<li key={menu.id}>
+<a href={menu.path}>{menu.title}</a>
+</li>
+    )
+    )
+  }
+</ul>
+      </div>
+      {/* hamburger */}
+      
+      </div>  
+    </nav>
+  );
+};
 
 export default Navbar;
