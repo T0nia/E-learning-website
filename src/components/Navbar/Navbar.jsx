@@ -29,6 +29,7 @@ const NavbarMenu = [
     link: "#",
   },
 ];
+
 const Navbar = () => {
   return (
     <nav className="relative z-20">
@@ -39,7 +40,7 @@ const Navbar = () => {
       >
         {/* Logo section */}
         <div>
-          <h1 className="font-bold text-2xl">The Coding Journey</h1>
+          <h1 className="font-bold text-2xl text-secondary"> Your Learning Pathway</h1>
         </div>
         {/* Menu section */}
         <div className="hidden lg:block">

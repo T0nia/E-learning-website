@@ -39,8 +39,8 @@ const Hero = () => {
               animate="animate"
               className="text-3xl lg:text-5xl font-bold !leading-snug"
             >
-              Let's Learn to build a{" "}
-              <span className="text-secondary">Website</span> for your business
+              Register and learn how to build {" "}
+              <span className="text-secondary">Web apps</span> 
             </motion.h1>
             <motion.div
               variants={FadeUp(0.8)}
