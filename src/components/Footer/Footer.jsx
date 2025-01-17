@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="space-y-4 max-w-[300px]">
             <h1 className="text-2xl font-bold">Your Learning Pathway</h1>
             <p className="text-dark2">
-              YLP is an e-learning platform made my T0nia, a blossoming Software Engineer. She encourages people to 
+              We are an e-learning platform built my T0nia, a blossoming Software Engineer. She encourages people to 
               join learning communities, code with teams, and practise soft skills as well as technical skill
               in order to be great developers.
             </p>

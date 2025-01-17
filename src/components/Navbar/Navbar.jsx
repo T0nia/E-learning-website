@@ -44,7 +44,7 @@ const Navbar = () => {
         </div>
         {/* Menu section */}
         <div className="hidden lg:block">
-          <ul className="flex items-center gap-3">
+          <ul className="flex items-center gap-3 cursor-pointer">
             {NavbarMenu.map((menu) => (
               <li key={menu.id}>
                 <a

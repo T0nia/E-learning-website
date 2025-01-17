@@ -32,7 +32,7 @@ const Banner = () => {
               transition={{ duration: 0.5 }}
               className="text-3xl md:text-4xl font-bold !leading-snug"
             >
-              Africa's Best E-learning Platform
+              The Best E-learning Platform
             </motion.h1>
             <div className="flex flex-col gap-6">
               <motion.div
