@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import Blob from "../../assets/blob.svg";
+import Blob from "../../assets/blob.png";
 import HeroPng from "../../assets/hero.png";
 import { animate, motion } from "framer-motion";
 
