@@ -32,7 +32,7 @@ const Banner = () => {
               transition={{ duration: 0.5 }}
               className="text-3xl md:text-4xl font-bold !leading-snug"
             >
-              The World's Leading Online learning Platform
+              Africa's Best E-learning Platform
             </motion.h1>
             <div className="flex flex-col gap-6">
               <motion.div
@@ -40,30 +40,30 @@ const Banner = () => {
                 initial="initial"
                 whileInView={"animate"}
                 viewport={{ once: true }}
-                className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
+                className="flex items-center text-white font-poppins gap-4 p-6 bg-secondary rounded-2xl hover:bg-gray-500 duration-300 hover:shadow-2xl"
               >
                 <FaBookReader className="text-2xl" />
-                <p className="text-lg">10,000+ Courses</p>
+                <p className="text-lg">Over 4,000 courses</p>
               </motion.div>
               <motion.div
                 variants={FadeUp(0.4)}
                 initial="initial"
                 whileInView={"animate"}
                 viewport={{ once: true }}
-                className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
+                className="flex items-center text-white font-poppins gap-4 p-6 bg-secondary rounded-2xl hover:bg-gray-500 duration-300 hover:shadow-2xl"
               >
                 <GrUserExpert className="text-2xl" />
-                <p className="text-lg">Expert Instruction</p>
+                <p className="text-lg">Professional lecturing</p>
               </motion.div>
               <motion.div
                 variants={FadeUp(0.6)}
                 initial="initial"
                 whileInView={"animate"}
                 viewport={{ once: true }}
-                className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
+                className="flex items-center text-white font-poppins gap-4 p-6 bg-secondary rounded-2xl hover:bg-gray-500 duration-300 hover:shadow-2xl"
               >
                 <MdOutlineAccessTime className="text-2xl" />
-                <p className="text-lg">Lifetime Access</p>
+                <p className="text-lg">Never-ending access</p>
               </motion.div>
             </div>
           </div>

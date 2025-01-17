@@ -14,31 +14,30 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-4">
           {/* first section */}
           <div className="space-y-4 max-w-[300px]">
-            <h1 className="text-2xl font-bold">The Coding Journey</h1>
+            <h1 className="text-2xl font-bold">Your Learning Pathway</h1>
             <p className="text-dark2">
-              TCJ is a platform dedicated to empowering aspiring developers.
-              From beginner tutorials to advanced programming concepts, we
-              provide a comprehensive learning experience designed to help you
-              master coding skills, build projects, and launch your tech career.
+              YLP is an e-learning platform made my T0nia, a blossoming Software Engineer. She encourages people to 
+              join learning communities, code with teams, and practise soft skills as well as technical skill
+              in order to be great developers.
             </p>
           </div>
           {/* second section */}
           <div className="grid grid-cols-2 gap-10">
             <div className="space-y-4">
-              <h1 className="text-2xl font-bold">Courses</h1>
+              <h1 className="text-2xl font-bold">Our Courses</h1>
               <div className="text-dark2">
                 <ul className="space-y-2 text-lg">
                   <li className="cursor-pointer hover:text-secondary duration-200">
-                    Web Development
+                    Web design
                   </li>
                   <li className="cursor-pointer hover:text-secondary duration-200">
-                    Software Development
+                    Mobile development
                   </li>
                   <li className="cursor-pointer hover:text-secondary duration-200">
-                    Apps Development
+                    SEO
                   </li>
                   <li className="cursor-pointer hover:text-secondary duration-200">
-                    E-learning
+                    Soft skills
                   </li>
                 </ul>
               </div>
@@ -54,10 +53,10 @@ const Footer = () => {
                     Services
                   </li>
                   <li className="cursor-pointer hover:text-secondary duration-200">
-                    About
+                    About Us
                   </li>
                   <li className="cursor-pointer hover:text-secondary duration-200">
-                    Contact
+                    Our Team
                   </li>
                 </ul>
               </div>
@@ -65,29 +64,29 @@ const Footer = () => {
           </div>
           {/* third section */}
           <div className="space-y-4 max-w-[300px]">
-            <h1 className="text-2xl font-bold">Get In Touch</h1>
+            <h1 className="text-2xl font-bold">Subscribe</h1>
             <div className="flex items-center">
               <input
                 type="text"
                 placeholder="Enter your email"
-                className="p-3 rounded-s-xl bg-white w-full py-4 focus:ring-0 focus:outline-none placeholder:text-dark2"
+                className="p-3 rounded-s-xl bg-white w-full py-4 focus:ring-0 focus:outline-none"
               />
-              <button className="bg-primary text-white font-semibold py-4 px-6 rounded-e-xl">
-                Go
+              <button className="bg-secondary text-white font-semibold py-4 px-6 rounded-e-xl">
+                Send
               </button>
             </div>
             {/* social icons */}
             <div className="flex space-x-6 py-3">
-              <a href="https://chat.whatsapp.com/FQSKgJ5f1eIAhlyF5sVym0">
+              <a href="javascript:void(0)">
                 <FaWhatsapp className="cursor-pointer hover:text-primary hover:scale-105 duration-200" />
               </a>
-              <a href="https://www.instagram.com/the.coding.journey/">
+              <a href="javascript:void(0)">
                 <FaInstagram className="cursor-pointer hover:text-primary hover:scale-105 duration-200" />
               </a>
-              <a href="https://thecodingjourney.com/">
+              <a href="javascript:void(0)">
                 <TbWorldWww className="cursor-pointer hover:text-primary hover:scale-105 duration-200" />
               </a>
-              <a href="https://www.youtube.com/@TheCodingJourney">
+              <a href="javascript:void(0)">
                 <FaYoutube className="cursor-pointer hover:text-primary hover:scale-105 duration-200" />
               </a>
             </div>

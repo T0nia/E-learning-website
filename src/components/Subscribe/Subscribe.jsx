@@ -26,18 +26,15 @@ const Subscribe = () => {
           className="flex flex-col justify-center"
         >
           <div className="text-center space-y-4 lg:max-w-[430px] mx-auto">
-            <h1 className="text-4xl font-bold !leading-snug">
-              450K+ Students are learning from us
+            <h1 className="text-4xl shadow-2xl font-bold text- !leading-snug">
+              5,000+ students already subscribed to our program
             </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae iusto minima
-            </p>
+         
             <a
-              href=""
+              href="javascript:void(0)"
               className="primary-btn !mt-8 inline-flex items-center gap-4 group"
             >
-              Subscribe Now
+              Join Us
               <FaBell className="group-hover:animate-bounce group-hover:text-lg duration-200" />
             </a>
           </div>

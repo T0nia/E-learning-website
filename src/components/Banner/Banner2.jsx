@@ -14,18 +14,16 @@ const Banner2 = () => {
         >
           <div className="text-center md:text-left space-y-4 lg:max-w-[450px]">
             <h1 className="text-4xl font-bold !leading-snug">
-              Join Our Community to Start your Journey
+              Check out our suppotive community!
             </h1>
             <p className="text-dark2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae iusto minima ad ut id eos accusantium aut, aperiam quis
-              incidunt!
-            </p>
+           No matter who you are or where you're from, there are people in the community who
+           you can bond with to have a great learning experience. </p>
             <a
-              href="https://chat.whatsapp.com/FQSKgJ5f1eIAhlyF5sVym0"
+              href="javascript:void(0)"
               className="primary-btn !mt-8"
             >
-              Join Now
+              Get Connected
             </a>
           </div>
         </motion.div>
