@@ -9,16 +9,16 @@ const Footer = () => {
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        className="container"
+        className="container mx-auto px-4"
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
           {/* first section */}
           <div className="space-y-4 max-w-[300px]">
             <h1 className="text-2xl font-bold">Your Learning Pathway</h1>
-            <p className="text-dark2">
-              We are an e-learning platform built my T0nia, a blossoming Software Engineer. She encourages people to 
-              join learning communities, code with teams, and practise soft skills as well as technical skill
-              in order to be great developers.
+            <p className="text-dark2 text-justify">
+              We are an e-learning platform built by T0nia, a blossoming Software Engineer. She encourages people to
+              join learning communities, code with teams, and practice soft skills as well as technical skills
+              to become great developers.
             </p>
           </div>
           {/* second section */}

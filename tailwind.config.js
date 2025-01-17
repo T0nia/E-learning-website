@@ -17,7 +17,6 @@ dark: "#333333",
 dark2: "#999999",
       },
 container: {
-center: true,
 padding: {
 DEFAULT: "1 rem",
 sm: "2 rem",
