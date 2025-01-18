@@ -36,9 +36,9 @@ const Footer = () => {
                   <li className="cursor-pointer hover:text-secondary duration-200">
                     SEO
                   </li>
-                  <li className="cursor-pointer hover:text-secondary duration-200">
+                  {/* <li className="cursor-pointer hover:text-secondary duration-200">
                     Soft skills
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

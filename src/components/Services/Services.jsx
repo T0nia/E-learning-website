@@ -72,7 +72,7 @@ const SlideLeft = (delay) => {
 
 const Services = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white bg-center">
       <div className="container pb-14 pt-16">
         <h1 className="text-4xl font-bold text-left pb-10">
           Our Available Services 
@@ -84,7 +84,7 @@ const Services = () => {
               initial="initial"
               whileInView={"animate"}
               viewport={{ once: true }}
-              className="bg-primary rounded-full flex flex-col gap-4 items-center justify-center p-4 py-7 hover:bg-white hover:scale-110 duration-300 hover:shadow-2xl"
+              className="bg-primary rounded-3xl flex flex-col gap-4 items-center justify-center p-4 py-7 hover:bg-white hover:scale-110 duration-300 hover:shadow-2xl"
             >
               <div className="text-4xl mb-4"> {service.icon}</div>
               <h1 className="text-lg font-semibold text-center px-3">
