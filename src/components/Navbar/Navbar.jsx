@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const NavbarMenu = [
   { id: 1, title: "Home", path: "/" },
-  { id: 2, title: "Services", link: "#" },
+  { id: 2, title: "Services", link: "/Serices" },
   { id: 3, title: "About Us", link: "#" },
   { id: 4, title: "Our Team", link: "#" },
   { id: 5, title: "Contact Us", link: "#" },
